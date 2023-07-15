@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+}
+
+main img {
+  width: 400px;
+  height: 300px;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  background-color: #7ba238;
+  width: 600px;
+  height: 600px;
+}
+
+input {
+  border-radius: 1em;
+  width: 200px;
+  height: 30px;
+  color: gray;
+}
+
+#precio {
+  color: white;
+  font-size: 20px;
+}
+
+#btn {
+  color: white;
+  background-color: orange;
+  border-radius: 1em;
+  height: 30px;
+  width: 120px;
+}
+
+.result {
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+#show-color {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}

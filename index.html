@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Calculando el total</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Desafio 1 - Calculando el total</h1>
+    <h2>Introduccion a Javascript</h2>
+
+    <main>
+      <div class="box">
+        <div class="container">
+          <img src="./assets/img/PC2.png" alt="Laptop AMD" />
+          <h3>Laptop Gamer AMD</h3>
+          <input type="text" value="Cantidad" id="cantidad" />
+          <input type="text" value="Color" id="color" />
+          <label id="precio">Precio: 400000</label>
+          <button id="btn" onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="result">
+          <p>Total: <span id="total">$0</span></p>
+          <br />
+          <p>Cantidad: <span id="cntd">0</span></p>
+          <br />
+          <label>Color: </label> <button id="show-color"></button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
