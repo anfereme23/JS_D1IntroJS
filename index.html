@@ -15,8 +15,12 @@
         <div class="container">
           <img src="./assets/img/PC2.png" alt="Laptop AMD" />
           <h3>Laptop Gamer AMD</h3>
-          <input type="text" value="Cantidad" id="cantidad" />
-          <input type="text" value="Color" id="color" />
+          <input type="text" placeholder="Ingrese Cantidad"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Ingrese Cantidad'" id="cantidad" />
+          <input type="text" placeholder="Ingrese Color"
+          onfocus="this.placeholder=''"
+          onblur="this.placeholder='Ingrese Color'" id="color" />
           <label id="precio">Precio: 400000</label>
           <button id="btn" onclick="calcular()">Calcular Total</button>
         </div>
